@@ -1,0 +1,65 @@
+2024-11-24 22:09:11,361 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:09:11,361 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:09:13,903 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:10:05,797 - custom_logger - ERROR - Line: 149 - Unhandled error: 'str' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "C:\Users\table\PycharmProjects\MojeCos\SpeechToText\predictor.py", line 146, in make_prediction
+    batch_predictions = self.decode_batch_predictions("xd")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\table\PycharmProjects\MojeCos\SpeechToText\predictor.py", line 132, in decode_batch_predictions
+    input_len = np.ones(pred.shape[0]) * pred.shape[1]
+                        ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'shape'
+2024-11-24 22:11:44,266 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:11:44,277 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:11:46,489 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:24:37,579 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model2' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:24:37,580 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model2/speech_model2.h5')
+2024-11-24 22:24:39,055 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:25:27,365 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:25:27,365 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:25:28,695 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:41:22,113 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:41:22,113 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:41:23,684 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:43:15,358 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:43:15,358 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:43:16,703 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded
+2024-11-24 22:47:15,229 - custom_logger - INFO - Line: 70 - Initing predictor with: 
+self.model_folder='C:\\Users\\table\\PycharmProjects\\MojeCos\\SpeechToText/Models/model1' 
+self.frame_length=256 
+self.frame_step=160 
+self.fft_length=384 
+
+2024-11-24 22:47:15,230 - custom_logger - INFO - Line: 78 - self.model_path=WindowsPath('C:/Users/table/PycharmProjects/MojeCos/SpeechToText/Models/model1/speech_model.h5')
+2024-11-24 22:47:16,558 - custom_logger - INFO - Line: 92 - Model and char mappings have been loaded

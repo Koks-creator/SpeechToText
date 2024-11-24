@@ -1,0 +1,64 @@
+2024-11-24 22:09:13 - App - INFO - Started server process [16504]
+2024-11-24 22:09:13 - App - INFO - Waiting for application startup.
+2024-11-24 22:09:13 - App - INFO - Application startup complete.
+2024-11-24 22:09:13 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:10:03 - App - INFO - Incoming request: POST http://localhost:8000/upload/
+2024-11-24 22:10:05 - App - INFO - Response status: 500
+2024-11-24 22:10:05 - App - INFO - Response body: {"detail":"Internal server error"}
+2024-11-24 22:10:05 - App - INFO - 127.0.0.1:63012 - "POST /upload/ HTTP/1.1" 500
+2024-11-24 22:11:08 - App - INFO - Shutting down
+2024-11-24 22:11:08 - App - INFO - Waiting for application shutdown.
+2024-11-24 22:11:08 - App - INFO - Application shutdown complete.
+2024-11-24 22:11:08 - App - INFO - Finished server process [16504]
+2024-11-24 22:11:46 - App - INFO - Started server process [21328]
+2024-11-24 22:11:46 - App - INFO - Waiting for application startup.
+2024-11-24 22:11:46 - App - INFO - Application startup complete.
+2024-11-24 22:11:46 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:24:31 - App - INFO - Shutting down
+2024-11-24 22:24:32 - App - INFO - Waiting for application shutdown.
+2024-11-24 22:24:32 - App - INFO - Application shutdown complete.
+2024-11-24 22:24:32 - App - INFO - Finished server process [21328]
+2024-11-24 22:24:39 - App - INFO - Started server process [23644]
+2024-11-24 22:24:39 - App - INFO - Waiting for application startup.
+2024-11-24 22:24:39 - App - INFO - Application startup complete.
+2024-11-24 22:24:39 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:25:00 - App - INFO - Incoming request: POST http://localhost:8000/upload/
+2024-11-24 22:25:01 - App - INFO - Response status: 200
+2024-11-24 22:25:01 - App - INFO - Response body: {"transcryption":"as to the exclusion of strangers on theseacoinn"}
+2024-11-24 22:25:01 - App - INFO - 127.0.0.1:63136 - "POST /upload/ HTTP/1.1" 200
+2024-11-24 22:25:21 - App - INFO - Shutting down
+2024-11-24 22:25:21 - App - INFO - Waiting for application shutdown.
+2024-11-24 22:25:21 - App - INFO - Application shutdown complete.
+2024-11-24 22:25:21 - App - INFO - Finished server process [23644]
+2024-11-24 22:25:28 - App - INFO - Started server process [20484]
+2024-11-24 22:25:28 - App - INFO - Waiting for application startup.
+2024-11-24 22:25:28 - App - INFO - Application startup complete.
+2024-11-24 22:25:28 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:25:39 - App - INFO - Incoming request: POST http://localhost:8000/upload/
+2024-11-24 22:25:40 - App - INFO - Response status: 200
+2024-11-24 22:25:40 - App - INFO - Response body: {"transcryption":"as to the exclusion of strangers on these occasions"}
+2024-11-24 22:25:40 - App - INFO - 127.0.0.1:63145 - "POST /upload/ HTTP/1.1" 200
+2024-11-24 22:41:16 - App - INFO - Shutting down
+2024-11-24 22:41:16 - App - INFO - Waiting for application shutdown.
+2024-11-24 22:41:16 - App - INFO - Application shutdown complete.
+2024-11-24 22:41:16 - App - INFO - Finished server process [20484]
+2024-11-24 22:43:16 - App - INFO - Started server process [17988]
+2024-11-24 22:43:16 - App - INFO - Waiting for application startup.
+2024-11-24 22:43:16 - App - INFO - Application startup complete.
+2024-11-24 22:43:16 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:43:25 - App - INFO - Incoming request: POST http://localhost:8000/upload/
+2024-11-24 22:43:27 - App - INFO - Response status: 200
+2024-11-24 22:43:27 - App - INFO - Response body: {"transcryption":"as to the exclusion of strangers on these occasions"}
+2024-11-24 22:43:27 - App - INFO - 127.0.0.1:63223 - "POST /upload/ HTTP/1.1" 200
+2024-11-24 22:46:37 - App - INFO - Shutting down
+2024-11-24 22:46:37 - App - INFO - Waiting for application shutdown.
+2024-11-24 22:46:37 - App - INFO - Application shutdown complete.
+2024-11-24 22:46:37 - App - INFO - Finished server process [17988]
+2024-11-24 22:47:16 - App - INFO - Started server process [21004]
+2024-11-24 22:47:16 - App - INFO - Waiting for application startup.
+2024-11-24 22:47:16 - App - INFO - Application startup complete.
+2024-11-24 22:47:16 - App - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-11-24 22:47:34 - App - INFO - Incoming request: POST http://localhost:8000/upload/
+2024-11-24 22:47:36 - App - INFO - Response status: 200
+2024-11-24 22:47:36 - App - INFO - Response body: {"transcryption":"as to the exclusion of strangers on these occasions"}
+2024-11-24 22:47:36 - App - INFO - 127.0.0.1:63244 - "POST /upload/ HTTP/1.1" 200

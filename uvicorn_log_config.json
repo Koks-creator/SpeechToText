@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "file_formatter": {
+            "format": "%(asctime)s - App - %(levelname)s - %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S"
+        },
+        "console_formatter": {
+            "format": "%(levelname)s - %(message)s"
+        }
+    },
+    "handlers": {
+        "file_handler": {
+            "class": "logging.FileHandler",
+            "filename": "api_logs.log",
+            "formatter": "file_formatter"
+        },
+        "console_handler": {
+            "class": "logging.StreamHandler",
+            "formatter": "console_formatter"
+        }
+    },
+    "loggers": {
+        "uvicorn": {
+            "handlers": ["file_handler", "console_handler"],
+            "level": "DEBUG",
+            "propagate": false
+        },
+        "middleware_logger": {
+            "handlers": ["file_handler", "console_handler"],
+            "level": "DEBUG",
+            "propagate": false
+        }
+    }
+}
