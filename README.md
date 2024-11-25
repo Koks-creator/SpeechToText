@@ -1,6 +1,8 @@
 # Speech-to-Text API
 A FastAPI-based REST API for transcribing WAV audio files to text using a TensorFlow model. The API processes audio through spectrogram generation and uses CTC (Connectionist Temporal Classification) for text prediction.
 
+[![video](https://img.youtube.com/vi/leUCpi6dmJk/0.jpg)](https://www.youtube.com/watch?v=leUCpi6dmJk)
+
 ## 📋 Requirements
  * fastapi==0.115.5
  * numpy==1.26.0
