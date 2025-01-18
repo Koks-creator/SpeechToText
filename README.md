@@ -223,6 +223,6 @@ CTC calculates the probability of different possible matches between the input s
 In sequential tasks like speech recognition, the length of the input (e.g., the number of audio frames) is variable, as is the length of the output (e.g., the number of words or characters in a transcription). CTCLoss is designed specifically to deal with this variability in length, allowing for different input to output matches and inserting blank symbols in the appropriate place
 
 ## 📚 Source
- * https://voidful.medium.comunderstanding-ctc-loss-for-speech-recognition-a16a3ef4da92
+ * https://voidful.medium.com/understanding-ctc-loss-for-speech-recognition-a16a3ef4da92
  * https://medium.com/@akp83540/connectionist-temporal-classification-ctc-722bbb767e62
  * https://www.youtube.com/watch?v=qKz_lmgad3o
